@@ -1,0 +1,143 @@
+/* import font from googlefonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* styles  */
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+
+.container {
+    background-color: #BCDFE7;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-card {
+    width: 300px;
+    background-color: #FFFFFF;
+    padding: 10px 15px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 5px;
+}
+
+.profile-heading {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-heading span {
+    background-color: #aaa3a3;
+    color: whitesmoke;
+    padding: 2px 6px;
+    font-weight: bold;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.profile-heading img {
+    margin-top: 20px;
+    width: 160px;
+    border-radius: 100%;
+    background-color: white;
+    padding: 3px;
+    border: 1px solid #464646;
+}
+
+.profile-body {
+    margin-top: 20px;
+}
+
+.profile-body h2 {
+    color: black;
+    font-weight: 700;
+    text-align: center;
+}
+
+.profile-body h4 {
+    margin-top: 5px;
+    color: #474747;
+    text-align: center;
+}
+
+#contacts {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
+}
+
+#contacts i {
+    font-size: 1.5rem;
+    color: #7e7e7e;
+}
+
+.profile-body p {
+    margin-top: 10px;
+    color: #474747;
+    font-weight: normal;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1.6rem;
+}
+
+#ratings {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center;
+    gap: 1.5rem;
+}
+
+#ratings h5 {
+    color: #969696;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+#ratings p {
+    margin-top: 0px;
+    text-align: center;
+    color: #474747;
+    font-weight: bold;
+}
+
+.profile-footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.profile-footer a {
+    text-decoration: none;
+    padding: 8px 35px;
+}
+
+.light-button {
+    color: #111111;
+    background-color: white;
+    border: 1px solid #111111;
+    border-radius: 4px;
+}
+
+.dark-button {
+    color: white;
+    background-color: #111111;
+    border: 1px solid white;
+    border-radius: 4px;
+}
